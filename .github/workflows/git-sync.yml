@@ -9,7 +9,7 @@ jobs:
   git-sync:
     runs-on: ubuntu-latest
     steps:
-      - name: git-sync
+      - name: entrypoint
         uses: wei/git-sync@v3.0.0
         with:
           source_repo: "https://github.com/JoseEduardo/repository_1.git"
