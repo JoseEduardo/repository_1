@@ -12,7 +12,7 @@ jobs:
       - name: git-sync
         uses: wei/git-sync@v3.0.0
         with:
-          source_repo: "git@github.com:JoseEduardo/repository_1.git"
+          source_repo: "https://github.com/JoseEduardo/repository_1.git"
           source_branch: "main"
           destination_repo: "git@github.com:JoseEduardo/repository_2.git"
           destination_branch: "main"
