@@ -1,0 +1,18 @@
+name: SyncDocumentation
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+jobs:
+  git-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: git-sync
+      - uses: wei/git-sync@v3.0.0
+        with:
+          source_repo: "JoseEduardo/repository_1"
+          source_branch: "main"
+          destination_repo: "JoseEduardo/repository_2"
+          destination_branch: "main"
