@@ -14,5 +14,5 @@ jobs:
         with:
           source_repo: "https://github.com/JoseEduardo/repository_1.git"
           source_branch: "main"
-          destination_repo: "https://JoseEduardo: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@github.com/JoseEduardo/repository_2.git"
+          destination_repo: "https://JoseEduardo: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@github.com/JoseEduardo/repository_2.git"
           destination_branch: "main"
