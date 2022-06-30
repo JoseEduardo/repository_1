@@ -14,7 +14,5 @@ jobs:
         with:
           source_repo: "https://github.com/JoseEduardo/repository_1.git"
           source_branch: "main"
-          destination_repo: "git@github.com:JoseEduardo/repository_2.git"
+          destination_repo: "https://JoseEduardo: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@github.com/JoseEduardo/repository_2.git"
           destination_branch: "main"
-          source_ssh_private_key: ${{secrets.SOURCE_SSH_PRIVATE_KEY}} # optional, will override `SSH_PRIVATE_KEY`
-          destination_ssh_private_key: ${{secrets.DESTINATION_SSH_PRIVATE_KEY}}
