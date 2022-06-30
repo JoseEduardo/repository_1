@@ -1,0 +1,15 @@
+- name: Git Sync Action
+  uses: wei/git-sync@v3.0.0
+  
+on: push
+jobs:
+  git-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: git-sync
+        uses: wei/git-sync@v3
+        with:
+          source_repo: "JoseEduardo/repository_1"
+          source_branch: "main"
+          destination_repo: "JoseEduardo/repository_2"
+          destination_branch: "main"
